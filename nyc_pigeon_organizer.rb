@@ -8,7 +8,6 @@ def nyc_pigeon_organizer(data)
         end
         if pigeon_list[a_name][categories] == nil
           pigeon_list[a_name][categories] = []
-          # pigeon_list = {Theo => [], Peter J => [], Lucky => [], Ms K, Queenie, Andrew Alex}
         end
           pigeon_list[a_name][categories].push(attributes.to_s)
       end
